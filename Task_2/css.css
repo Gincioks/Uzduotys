@@ -10,11 +10,14 @@ nav {
 }
 
 nav > ul {
-  margin-left: 10%;
+  margin: 0;
+  padding: auto;
 }
 
 ul > li {
   display: inline-block;
+  border-right: 1px solid white;
+  height: auto;
   margin: 10px;
 }
 
