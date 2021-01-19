@@ -1,0 +1,49 @@
+body {
+  display: block;
+  margin: 0;
+}
+div > div {
+  display: inline-block;
+  width: 44%;
+  margin-top: 0;
+}
+
+div:last-child form {
+  margin-left: 30px;
+  width: 60%;
+  padding: 20px;
+}
+div:last-child input {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: gray;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div:last-child h1 {
+  margin-left: 50px;
+  font-weight: bold;
+}
+div:last-child h5 {
+  color: gray;
+  margin-left: 50px;
+  font-style: bold;
+}
+
+div:last-child button {
+  background-color: lightgreen;
+  width: 65%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+div:last-child p {
+  color: gray;
+  font-size: 15px;
+  font-style: bold;
+}
