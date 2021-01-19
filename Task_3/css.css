@@ -1,0 +1,77 @@
+body {
+  margin: 10%;
+  margin-left: 30%;
+  background-color: lightgray;
+}
+
+div > div {
+  display: inline-block;
+  background-color: white;
+  width: 30%;
+  margin-left: 20px;
+  border: 1px solid darkgray;
+  padding-bottom: 30px;
+}
+
+div:first-child > h1 {
+  color: #3eafc7;
+  text-align: center;
+  font: bold;
+  font-size: 50px;
+}
+
+div:first-child > h3 {
+  color: grey;
+  font: bold;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div:first-child > p {
+  color: grey;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+div:first-child > button {
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 25%;
+  background-color: #3eafc7;
+  width: 50%;
+  border: 0;
+}
+
+div:last-child > h1 {
+  color: #e9742c;
+  text-align: center;
+  font: bold;
+  font-size: 50px;
+}
+div:last-child > h3 {
+  color: grey;
+  font: bold;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+div:last-child > p {
+  color: grey;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+div:last-child > button {
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 25%;
+  background-color: #e9742c;
+  width: 50%;
+  border: 0;
+}
