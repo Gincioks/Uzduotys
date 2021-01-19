@@ -129,67 +129,68 @@ table {
 }
 /*------Mano Kodas------*/
 
-body {
-  text-align: center;
-}
-
 div {
   display: block;
-  position: relative;
-  margin: 0;
+  margin: 0 auto;
+  font-size: 0;
+  box-sizing: border-box;
 }
 
 .block {
   display: inline-block;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-.insp {
-  float: left;
   width: 50%;
+}
+
+.insp {
   height: 100vh;
-  object-fit: fill;
 }
 
-div:last-child form {
-  float: left;
-  width: 60%;
+div > div img {
+  padding-bottom: 5%;
+  padding-left: 5%;
+  margin-bottom: 6%;
 }
-div:last-child input {
-  width: 60%;
+div h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-left: 5%;
 }
 
+div h5 {
+  color: gray;
+  font-style: bold;
+  font-size: 20px;
+  margin-left: 6%;
+}
+
+div form {
+  width: 80%;
+  padding: 5%;
+}
+
+div input {
+  width: 70%;
+  margin: 10px;
+  padding: 3%;
+  border-color: rgb(240, 240, 240);
+}
 input::placeholder {
   color: gray;
   font-size: 15px;
   font-weight: bold;
 }
 
-div:last-child h1 {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-}
-div:last-child h5 {
-  color: gray;
-  font-style: bold;
-  float: left;
-}
-
-div:last-child button {
+div button {
   background-color: lightgreen;
   width: 65%;
   padding: 10px;
   border-radius: 5px;
+  margin-top: 5%;
 }
 
-div div:last-child p {
+div p {
   color: gray;
   font-size: 15px;
-}
-
-div div:last-child img {
-  display: block;
-  float: left;
+  margin-bottom: 5%;
+  padding-left: 5%;
 }
