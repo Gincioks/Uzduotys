@@ -1,14 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
 body {
-  margin: 10%;
-  margin-left: 30%;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*------Mano Kodas------*/
+body {
+  margin-top: 200px;
   background-color: lightgray;
+  text-align: center;
 }
 
 div > div {
   display: inline-block;
   background-color: white;
-  width: 30%;
-  margin-left: 20px;
+  margin: 0 auto;
+  width: 40%;
   border: 1px solid darkgray;
   padding-bottom: 30px;
 }
@@ -18,6 +148,8 @@ div:first-child > h1 {
   text-align: center;
   font: bold;
   font-size: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 div:first-child > h3 {
@@ -39,10 +171,10 @@ div:first-child > button {
   padding: 10px;
   font-size: 13px;
   text-align: center;
-  margin-left: 25%;
   background-color: #3eafc7;
   width: 50%;
   border: 0;
+  margin-top: 20px;
 }
 
 div:last-child > h1 {
@@ -50,6 +182,8 @@ div:last-child > h1 {
   text-align: center;
   font: bold;
   font-size: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 div:last-child > h3 {
   color: grey;
@@ -70,8 +204,8 @@ div:last-child > button {
   padding: 10px;
   font-size: 13px;
   text-align: center;
-  margin-left: 25%;
   background-color: #e9742c;
   width: 50%;
   border: 0;
+  margin-top: 20px;
 }
