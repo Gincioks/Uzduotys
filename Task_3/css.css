@@ -131,14 +131,19 @@ table {
 body {
   margin-top: 200px;
   background-color: lightgray;
-  text-align: center;
+}
+
+div {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
 }
 
 div > div {
   display: inline-block;
   background-color: white;
   margin: 0 auto;
-  width: 40%;
+  width: 49%;
   border: 1px solid darkgray;
   padding-bottom: 30px;
 }
@@ -152,21 +157,7 @@ div:first-child > h1 {
   padding-top: 20px;
 }
 
-div:first-child > h3 {
-  color: grey;
-  font: bold;
-  font-size: 14px;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-div:first-child > p {
-  color: grey;
-  padding: 10px;
-  font-size: 13px;
-  text-align: center;
-}
-div:first-child > button {
+button {
   color: white;
   padding: 10px;
   font-size: 13px;
@@ -174,10 +165,11 @@ div:first-child > button {
   background-color: #3eafc7;
   width: 50%;
   border: 0;
+  margin-left: 25%;
   margin-top: 20px;
 }
 
-div:last-child > h1 {
+h1 {
   color: #e9742c;
   text-align: center;
   font: bold;
@@ -185,7 +177,7 @@ div:last-child > h1 {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-div:last-child > h3 {
+h3 {
   color: grey;
   font: bold;
   font-size: 14px;
@@ -193,7 +185,7 @@ div:last-child > h3 {
   padding-bottom: 10px;
 }
 
-div:last-child > p {
+p {
   color: grey;
   padding: 10px;
   font-size: 13px;
@@ -203,7 +195,6 @@ div:last-child > button {
   color: white;
   padding: 10px;
   font-size: 13px;
-  text-align: center;
   background-color: #e9742c;
   width: 50%;
   border: 0;
