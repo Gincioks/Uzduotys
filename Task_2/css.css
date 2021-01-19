@@ -163,6 +163,7 @@ div {
   background-color: white;
   display: block;
   width: 75%;
+  box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 10px;
 }
