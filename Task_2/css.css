@@ -163,15 +163,19 @@ div {
   background-color: white;
   display: block;
   width: 75%;
-  box-sizing: border-box;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 
+div:nth-child(3) {
+  font-size: 0;
+  box-sizing: border-box;
+}
+
 div > div {
   display: inline-block;
-  width: 49%;
-  margin: 0 auto;
+  width: 50%;
+  font-size: 12px;
 }
 
 p {
