@@ -139,7 +139,6 @@ div {
 .block {
   display: inline-block;
   width: 50%;
-  margin-top: 0;
   vertical-align: top;
 }
 
@@ -147,13 +146,9 @@ div {
   height: 100vh;
 }
 
-.edit {
-  margin-bottom: 5%;
-}
-
 div > div img {
-  padding-bottom: 1%;
-  padding-left: 5%;
+  padding-bottom: 2%;
+  padding-left: 3%;
 }
 div h1 {
   font-size: 60px;
@@ -166,12 +161,12 @@ div h5 {
   font-style: bold;
   font-size: 20px;
   margin-left: 6%;
+  margin-top: 2%;
 }
 
 div form {
   width: 80%;
-  padding: 5%;
-  margin-bottom: 7%;
+  padding: 1% 5%;
 }
 
 div input {
