@@ -138,11 +138,12 @@ body {
 }
 
 div {
-  margin-top: 20%;
   display: inline-block;
   background-color: white;
-  margin-right: 2.5%;
   width: 45%;
+  margin-top: 20%;
+  margin-right: 2.5%;
+  padding-bottom: 3%;
   border: 1px solid darkgray;
   box-sizing: border-box;
 }
@@ -159,12 +160,11 @@ button {
   color: white;
   padding: 10px;
   font-size: 13px;
-  text-align: center;
   background-color: #3eafc7;
-  width: 50%;
+  width: 30%;
   border: 0;
-  margin-left: 25%;
-  margin-top: 20px;
+  margin-left: 35%;
+  margin-top: 1%;
 }
 
 h1 {
@@ -177,15 +177,15 @@ h1 {
 }
 h3 {
   color: grey;
-  font: bold;
+  font-weight: bold;
   font-size: 14px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 5%;
 }
 
 p {
   color: grey;
-  padding: 10px;
+  padding: 3%;
   font-size: 13px;
   text-align: center;
 }
@@ -194,7 +194,7 @@ div:last-child > button {
   padding: 10px;
   font-size: 13px;
   background-color: #e9742c;
-  width: 50%;
+  width: 30%;
   border: 0;
-  margin-top: 20px;
+  margin-top: 1%;
 }
