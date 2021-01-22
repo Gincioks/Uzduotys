@@ -132,14 +132,14 @@ table {
 
 body {
   background-image: url("./img/klaipeda.jpg");
-  margin-top: 10%;
+  margin: 5% auto;
 }
 
 div {
   display: block;
   margin: 0 auto;
-  width: 80%;
-  padding: 3%;
+  width: 60%;
+  padding: 2% 3%;
   background-color: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
   font-size: 0;
@@ -147,7 +147,7 @@ div {
 }
 .box_1 {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   padding: 3%;
   background-color: rgb(96, 122, 207);
   border-radius: 10px;
@@ -155,10 +155,11 @@ div {
 
 .box_2 {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   padding: 3%;
   background-color: rgb(216, 114, 114);
   border-radius: 10px;
+  margin-left: 10%;
 }
 h1 {
   font-size: 30px;
@@ -167,5 +168,8 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
+}
+.para {
+  margin-top: 5%;
 }
