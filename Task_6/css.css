@@ -132,6 +132,7 @@ table {
 
 body {
   background-image: url("./img/klaipeda.jpg");
+  background-size: cover;
   margin: 5% auto;
 }
 
