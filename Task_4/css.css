@@ -139,16 +139,20 @@ div {
 .block {
   display: inline-block;
   width: 50%;
+  margin-top: 0;
 }
 
 .insp {
   height: 100vh;
 }
 
+.edit {
+  margin-bottom: 5%;
+}
+
 div > div img {
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   padding-left: 5%;
-  margin-bottom: 6%;
 }
 div h1 {
   font-size: 60px;
@@ -166,7 +170,7 @@ div h5 {
 div form {
   width: 80%;
   padding: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
 }
 
 div input {
@@ -183,13 +187,13 @@ input::placeholder {
 
 div button {
   background-color: lightgreen;
-  width: 65%;
+  width: 78%;
   padding: 10px;
   border-radius: 5px;
   margin-top: 5%;
 }
 
-div p {
+div div p {
   color: gray;
   font-size: 15px;
   padding-left: 5%;
