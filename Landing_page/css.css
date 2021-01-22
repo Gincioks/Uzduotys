@@ -134,6 +134,7 @@ table {
 .intro {
   height: 100vh;
   background-image: url("./img/background.jpg");
+  /* background: linear-gradient(to top, rgb(55, 129, 240, 0.4), transparent 50%); */
 }
 
 .container {
