@@ -320,24 +320,23 @@ table {
 /*----Section Form-----*/
 
 .form {
-  display: block;
   background-image: url("./img/background_2.jpg");
+  background-color: rgba(0, 0, 0, 0.8);
   background-size: cover;
   height: 100vh;
 }
 .shadow {
   width: 90%;
-  display: block;.
+  display: block;
   margin: 0 auto;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
   font-size: 0;
 }
 .shadow div {
   display: inline-block;
   width: 50%;
-  margin: 0 auto;
+  margin-top: 15%;
   vertical-align: top;
 }
 
@@ -354,8 +353,9 @@ table {
   border-color: rgb(240, 240, 240);
 }
 .shadow form {
-  margin-left: 20%;
-  margin-top: 20%;
+  display: inline-block;
+  width: 50%;
+  margin-top: 10%;
 }
 input::placeholder {
   color: gray;
@@ -379,16 +379,15 @@ input::placeholder {
   font-size: 3rem;
   font-weight: bold;
   font-family: Oswald, serif;
-  margin-left: 30%;
-  margin-top: 30%;
+  margin-left: 10%;
 }
 .shadow p {
   width: 50%;
   color: lightgray;
   font-size: 1.1rem;
-  margin-left: 30%;
-  margin-top: 3%;
   padding-bottom: 25%;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 form p {
   margin-left: 0;
