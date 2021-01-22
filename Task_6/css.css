@@ -140,7 +140,7 @@ div {
   margin: 0 auto;
   width: 80%;
   padding: 3%;
-  background: white;
+  background-color: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
   font-size: 0;
   border-radius: 10px;
@@ -149,7 +149,7 @@ div {
   display: inline-block;
   width: 50%;
   padding: 3%;
-  background-color: blue;
+  background-color: rgb(96, 122, 207);
   border-radius: 10px;
 }
 
@@ -157,7 +157,7 @@ div {
   display: inline-block;
   width: 50%;
   padding: 3%;
-  background-color: red;
+  background-color: rgb(216, 114, 114);
   border-radius: 10px;
 }
 h1 {
